@@ -32,7 +32,7 @@ const Output = ({ editorRef, language }) => {
   return (
     <Box w="50%">
       <Text mb={2} fontSize="lg">
-        Output
+        Output:
       </Text>
       <Button
         variant="outline"
@@ -41,7 +41,7 @@ const Output = ({ editorRef, language }) => {
         isLoading={isLoading}
         onClick={runCode}
       >
-        Run Code
+        Run
       </Button>
       <Box
         height="75vh"
